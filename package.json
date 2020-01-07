@@ -1,5 +1,5 @@
 {
-  "name": "avs-ng-confirm",
+  "name": "rg-ng-confirm",
   "version": "0.0.9",
   "scripts": {
     "ng": "ng",
@@ -10,8 +10,8 @@
     "e2e": "ng e2e"
   },
   "license": "MIT",
-  "repository": "https://github.com/avssolutions/angular-confirm-modal",
-  "private": true,
+  "repository": "https://github.com/rakeshgudipudi/angular-confirm-modal",
+  "private": false,
   "dependencies": {
     "@angular/animations": "~8.0.0",
     "@angular/common": "~8.0.0",

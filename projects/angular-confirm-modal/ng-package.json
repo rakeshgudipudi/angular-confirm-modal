@@ -1,13 +1,10 @@
 {
   "$schema": "../../node_modules/ng-packagr/ng-package.schema.json",
-  "dest": "../../dist/angular-confirm-modal",
+  "dest": "../../dist/rg-ng-confirm",
   "whitelistedNonPeerDependencies": [
     "@ng-bootstrap/ng-bootstrap"
   ],
   "lib": {
-    "entryFile": "src/public-api.ts",
-    "externals": {
-      "@ng-bootstrap/ng-bootstrap": "@ng-bootstrap/ng-bootstrap"
-    }
+    "entryFile": "src/public-api.ts"
   }
 }
