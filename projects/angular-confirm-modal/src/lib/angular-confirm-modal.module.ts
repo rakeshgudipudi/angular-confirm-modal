@@ -10,7 +10,7 @@ import { AngularConfirmModalConfig } from './angular-confirm-modal.config';
 @NgModule({
   imports: [
     CommonModule,
-    NgbModule.forRoot(),
+    NgbModule,
     BrowserAnimationsModule
   ],
   declarations: [
