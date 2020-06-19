@@ -1,6 +1,5 @@
 import { NgModule, ModuleWithProviders } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { AngularConfirmModalDirective } from './angular-confirm-modal.directive';
@@ -10,8 +9,7 @@ import { AngularConfirmModalConfig } from './angular-confirm-modal.config';
 @NgModule({
   imports: [
     CommonModule,
-    NgbModule,
-    BrowserAnimationsModule
+    NgbModule
   ],
   declarations: [
     AngularConfirmModalDirective,
